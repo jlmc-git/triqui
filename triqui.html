@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Esto es un comentario: alt + shif + A -->
+    <!-- A. Agregar puntaje, que me muestre el turno -->
+    <!-- B. Agregar opción para jugar con alguien o con la máquina -->
+    <!-- B. Que la máquina juegue de forma aleatoria -->
+    <!-- C. Opción máquina nivel básico y avanzado...  -->
+    <!-- C. opción avanzada que busque ganar con un algortimo -->
+    <title> Triqui </title>
+    <link rel="stylesheet" href="triqui_styles.css">
+</head>
+
+<body>
+    <div id="board">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <label id="winner-tag">No ha ganado nadie por ahora</label>
+    <br>
+    <label id="player1-tag">Score player 1 (X) = 0</label>
+    <br>
+    <label id="player2-tag">Score player 2 (O) = 0</label>
+    <br>
+    <button id="reset-btn">Reinicio Triqui</button>
+    <script src="triqui_logic.js"></script>
+</body>
+</html>
